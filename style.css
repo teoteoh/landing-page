@@ -21,7 +21,12 @@ h2 {
     font-size: 35px;
     color: #ff2e93;
 }
-#wrapper {
+
+a {
+    color: #ffde91;
+}
+
+#wrapper, #footer {
     background-image: linear-gradient(
         70deg,
         hsl(326deg 100% 77%) 0%,
@@ -143,6 +148,7 @@ h2 {
     background-color: #ffde91;
     color: #ff2e93;
     border: none;
+    
 
 }
 
@@ -216,4 +222,31 @@ h2 {
 
 .action-container button {
     font-size: 25px;
+}
+
+#footer {
+
+    padding: 60px 300px 60px 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    
+}
+
+a:link, a:visited {
+    background-color:#ff2e93;
+    color:#ffdb87;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    width: 200px;
+}
+
+a:hover {
+    background-color: #ffdb87;
+    color: #ff2e93;
 }
