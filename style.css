@@ -117,7 +117,7 @@ h2 {
 
 }
 
-.text-container button {
+.text-container button, .action-container button {
     width: 270px;
     font-family: Roboto, sans-serif;
     font-weight: 900;
@@ -139,7 +139,7 @@ h2 {
     border-left: 0;
 }
 
-.text-container button:hover{
+.text-container button:hover, .action-container button:hover{
     background-color: #ffde91;
     color: #ff2e93;
     border: none;
@@ -187,4 +187,33 @@ h2 {
     font-size: 20px;
     text-align: right;
     font-weight: bold
+}
+
+#action {
+    background-color: #ffffff;
+    justify-content: center;
+}
+.action-container {
+    display: flex;
+    margin: 100px 200px 100px 200px;
+    padding: 50px 70px 50px 70px;
+    gap: 50px;
+    background-color: #c9136b;
+    color: #ffffff;
+    justify-content: space-evenly;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px 50px;
+    font-size: 20px;
+}
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.call {
+    font-weight: bold;
+}
+
+.action-container button {
+    font-size: 25px;
 }
